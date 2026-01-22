@@ -28,6 +28,10 @@ button {
 .px-container {
   padding-inline: 80px;
 
+  @media (max-width: 978px) {
+    padding-inline: 40px;
+  }
+
   @media (max-width: 768px) {
     padding-inline: 20px;
   }

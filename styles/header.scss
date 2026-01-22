@@ -6,6 +6,9 @@
   align-items: center;
   justify-content: space-between;
 
+  @media (max-width: 768px) {
+    padding: 12px 16px;
+  }
 }
 
 .menu-btn {
@@ -46,6 +49,13 @@
       top: -4.5px;
     }
   }
+
+
+  @media (max-width: 768px) {
+    order: 2;
+
+    padding: 10px 14px;
+  }
 }
 
 .nav {
@@ -57,5 +67,8 @@
     color: var(--white);
     font-size: 16px;
 
+    @media (max-width: 768px) {
+      display: none;
+    }
   }
 }

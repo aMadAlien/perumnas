@@ -4,8 +4,8 @@ import { footerNavigation } from "@/content/navigation";
 
 export default function Footer() {
   return (
-    <footer className="px-container pt-[80px] pb-[40px]">
-      <div className="flex items-start justify-between mb-[80px]">
+    <footer className="px-container footer">
+      <div className="flex max-md:flex-col items-start justify-between mb-[80px]">
         <div>
           <LogoIcon color="#12161D" />
           <p className="mt-6 text-lg text-neutral-600">
