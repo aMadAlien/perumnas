@@ -1,0 +1,42 @@
+.footer {
+    &__nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 71px;
+
+        &-col {
+            width: 130px;
+        }
+
+        &-title {
+            color: var(--black);
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 32px;
+        }
+
+        &-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            color: var(--neutral-600);
+            font-size: 16px;
+        }
+    }
+
+    &__rights {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 24px;
+        border-top: 1px solid var(--neutral-100);
+
+        color: var(--neutral-600);
+        font-size: 14px;
+
+        &-list {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+        }
+    }
+}

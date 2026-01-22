@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #12161d;
+
+  --white: #ffffff;
+  --neutral-100: #E5E5E6;
+  --neutral-600: #61656E;
+  --black: #12161d;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Inter", Helvetica, sans-serif;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+.px-container {
+  padding-inline: 80px;
+
+  @media (max-width: 768px) {
+    padding-inline: 20px;
+  }
+}
