@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.scss";
-import   "./../styles/header.scss";
-import   "./../styles/footer.scss";
+import "./../styles/header.scss";
+import "./../styles/footer.scss";
+import "./../styles/content.scss";
 
 const interSans = Inter({
   variable: "--font-inter-sans",

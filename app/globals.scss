@@ -10,6 +10,10 @@
   --black: #12161d;
 }
 
+* {
+  line-height: 120%;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);

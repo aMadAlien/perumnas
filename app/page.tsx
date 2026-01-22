@@ -1,21 +1,22 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import Image from "next/image";
 
 export default function Home() {
   return (
     <div className="">
-      <div className="absolute w-full">
+      <div className="absolute z-[100] w-full">
         <Header />
       </div>
 
-      <Image
-        src="https://images.pexels.com/photos/33941272/pexels-photo-33941272.png"
-        alt="bg"
-        width={1000}
-        height={1000}
-        className="h-screen w-screen object-cover"
-      />
+      <div className="hero-section">
+        <h1 className="hero-section__title">
+          More Comfortable.
+          <br />
+          More Classy.
+        </h1>
+
+        <p className="hero-section__subtitle">Make your living experience even more memorable.</p>
+      </div>
 
       <Footer />
     </div>
