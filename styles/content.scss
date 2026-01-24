@@ -115,3 +115,41 @@
     }
   }
 }
+
+
+.slider {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 0;
+  cursor: pointer;
+
+  padding-left: 80px;
+
+  &.active {
+    cursor: grab;
+  }
+
+  @media (max-width: 768px) {
+    padding-left: 16px;
+  }
+}
+
+.slide {
+  display: inline-block;
+  user-select: none;
+  margin-right: 40px;
+
+  &:last-child {
+    margin-right: 80px;
+  }
+
+  @media (max-width: 768px) {
+    margin-right: 24px;
+
+    &:last-child {
+      margin-right: 16px;
+    }
+  }
+}

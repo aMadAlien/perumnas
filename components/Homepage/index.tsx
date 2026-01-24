@@ -1,3 +1,4 @@
+import Slider from "./Slider";
 
 export default function Homepage() {
   return (
@@ -26,9 +27,7 @@ export default function Homepage() {
         </div>
       </section>
 
-      <section>
-        {/* slider */}
-      </section>
+      <Slider />
 
       <section className="px-container pt-[80px] pb-[120px]">
         <div className="md:ml-auto md:w-[70vw] lg:w-[var(--larger-col)]">
