@@ -1,3 +1,4 @@
+import Homepage from "@/components/Homepage";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 
@@ -17,6 +18,8 @@ export default function Home() {
 
         <p className="hero-section__subtitle">Make your living experience even more memorable.</p>
       </div>
+
+      <Homepage />
 
       <Footer />
     </div>

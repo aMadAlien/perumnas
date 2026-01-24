@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="flex max-md:flex-col items-start justify-between mb-[80px]">
         <div>
           <LogoIcon color="#12161D" />
-          <p className="mt-6 text-lg text-neutral-600">
+          <p className="mt-6 text-lg">
             More Comfortable.
             <br />
             More Classy.
