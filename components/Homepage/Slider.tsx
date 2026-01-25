@@ -9,7 +9,7 @@ export default function Slider() {
     <section className="py-[60px] md:py-[40px]">
       <HorizontalSlider
         sliders={
-          [Slide1, Slide2, Slide3].map(src => (
+          [Slide1, Slide2, Slide3, Slide1, Slide2, Slide3].map(src => (
             <Image
               src={src}
               width={560}

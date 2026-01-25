@@ -27,16 +27,16 @@
   --color-neutral-600: #61656E;
   --color-black: #12161d;
 
-  // --smaller-col: 42.97%; // 550px
-  // --larger-col: 53.13%; // 680px
-  --smaller-col: 36.111vw; // 550px
-  --larger-col: 47.222vw; // 680px
+  --smaller-col: 42.97%; // 550px
+  --larger-col: 53.13%; // 680px
+  // --smaller-col: 36.111vw; // 550px
+  // --larger-col: 47.222vw; // 680px
 }
 
 
 
 * {
-  line-height: 120%;
+  line-height: 145%;
 }
 
 body {
@@ -67,6 +67,16 @@ button {
   max-width: 1280px;
   width: 100%;
   margin: 0 auto;
+}
+
+.container__col {
+  &--smaller {
+    flex: var(--smaller-col);
+  }
+
+  &--larger {
+    flex: var(--larger-col);
+  }
 }
 
 .h2 {
