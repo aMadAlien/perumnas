@@ -1,10 +1,14 @@
 import type { NextConfig } from "next";
 
+const repo = process.env.GITHUB_REPOSITORY?.split('/')[1] || '';
+
+
 const nextConfig: NextConfig = {
   output: "export",
-  sassOptions: {},
+  basePath: repo ? `/${repo}` : '',
+  assetPrefix: repo ? `/${repo}/` : '',
   images: {
-    domains: ['images.pexels.com', 'www.pexels.com'],
+    unoptimized: true,
   }
 };
 
